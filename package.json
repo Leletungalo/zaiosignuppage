@@ -1,0 +1,15 @@
+{
+  "name": "stage_project_1",
+  "version": "1.0.0",
+  "description": "sign up form",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://lelethungalo.github.io/zaiosignuppage",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

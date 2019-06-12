@@ -1,0 +1,35 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-color: orangered;
+}
+
+.mainHeader{
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+#myForm{
+    display: grid;
+    grid-template-areas: 'name surname'
+                        'age email'
+                        'password Cpassword'
+                        'submit submit';
+    grid-gap: 10px;
+    padding: 5rem 10rem;
+    
+}
+
+.inputs{
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+#sub{
+    grid-area: submit;
+    background-color: blue;
+    font-size: 2rem;
+}
